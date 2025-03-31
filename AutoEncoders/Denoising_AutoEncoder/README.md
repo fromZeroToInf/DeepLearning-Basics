@@ -1,5 +1,6 @@
 ## Installation Guide
 python 3.12 is required
+
 Use Terminal in Projectfolder/Subfolder where pyproject.toml is located:
 
 
