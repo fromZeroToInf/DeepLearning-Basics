@@ -1,0 +1,6 @@
+**/.venv
+**/.pdm.lock
+**/pdm.lock
+**/.pdm-python
+**/__pycache__/
+
