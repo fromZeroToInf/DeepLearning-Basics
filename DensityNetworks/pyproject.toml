@@ -1,0 +1,19 @@
+[project]
+name = "DensityNetworks"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Shin-Young Hur"},
+]
+dependencies = []
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {file = "CC BY 4.0"}
+
+
+[tool.pdm]
+distribution = false
+[tool.dataset]
+dataset_license = "CC BY 4.0"
+source = "https://archive.ics.uci.edu/dataset/183/communities+and+crime"
+copyright_holder = "Michael Redmond"

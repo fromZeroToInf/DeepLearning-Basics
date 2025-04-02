@@ -8,8 +8,11 @@ authors = [
 dependencies = ["jupyterlab>=4.3.6", "notebook>=7.3.3", "matplotlib==3.10.1", "tensorflow==2.16.1", "tensorflow-intel==2.16.1"]
 requires-python = "==3.12.*"
 readme = "README.md"
-license = {text = "free"}
-
+license = {file = "CC BY 4.0"}
 
 [tool.pdm]
 distribution = false
+
+[tool.dataset]
+dataset_license = "MNIST: non-commercial research and educational use only"
+dataset_license_url = "http://yann.lecun.com/exdb/mnist/"
