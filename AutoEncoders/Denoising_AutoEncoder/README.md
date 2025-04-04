@@ -4,13 +4,13 @@ python 3.12 is required
 Use Terminal in Projectfolder/Subfolder where pyproject.toml is located:
 
 
-### Windows11 (recommended)
+### Windows11
 ```code
 pip install pdm 
 pdm install 
 ```
 A .venv will be created. We recommend to use the venv
-### Linux (recommended)
+### Linux 
 ```code
 python -m venv .venv
 source .venv/bin/activate
